@@ -1,0 +1,9 @@
+config:
+  target: 'http://localhost:5001'
+  phases:
+    - duration: 60
+      arrivalRate: 20
+scenarios:
+  - flow:
+    - get:
+        url: "/budgets?skip=1&limit=15"
