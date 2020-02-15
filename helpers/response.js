@@ -46,5 +46,18 @@ module.exports = {
         res.status(404).send({
             message, status : 404
         })
+    },
+    fileData : (res, data) => {
+        if(data === true){
+            res.status(200).send({
+                message : "File uploaded successfully",
+                status : 200
+            })
+        } else {
+            res.status(202).send({
+                message : "File upload Failed",
+                status : 400
+            })
+        }
     }
 }
