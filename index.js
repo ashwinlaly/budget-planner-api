@@ -3,7 +3,7 @@ let express = require('express'),
     app = express(),
     db = require('./db'),
     Logger = require('./helpers/logger'),
-    Middleware = require('./middleware/invalid')
+    Helper = require('./helpers/response')
     fileRoute = require('./routes/file')()
     budgetRoute = require('./routes/budget')();
 
@@ -11,7 +11,7 @@ app.use(express.json())
 app.use(Logger.requestLogger)
 app.use(budgetRoute)
 app.use(fileRoute)
-app.use("*", Middleware.inValid)
+app.use("*", Helper.inValid)
 
 db.connect(() => {
     try {
