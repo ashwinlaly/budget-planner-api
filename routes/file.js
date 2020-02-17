@@ -4,7 +4,7 @@ let express = require('express'),
     fileRouter = express.Router();
 
 const Upload = multer({
-    dest : 'images',
+    // dest : 'images',
     limits : {
         fileSize : 10000
     },
@@ -19,6 +19,7 @@ const Upload = multer({
 let route = () => {
 
     fileRouter.post('/file', Upload.single('upload'), (req, res) => {
+        console.log(req.file.buffer)
         try{
             Helper.fileData(res, true)
         } catch(err){
