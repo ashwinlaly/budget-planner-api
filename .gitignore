@@ -2,3 +2,4 @@ node_modules
 logs
 images
 package-lock.json
+.env

@@ -47,6 +47,11 @@ module.exports = {
             message, status : 404
         })
     },
+    sendSuccess : (res , message = 'Sucess') => {
+        res.status(200).send({
+            message, status : 200
+        })
+    },
     fileData : (res, data) => {
         if(data === true){
             res.status(200).send({
