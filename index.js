@@ -18,7 +18,7 @@ db.connect(() => {
         app.listen(process.env.PORT, () => {
             Logger.clearRequestLogger()
             Logger.clearDBLogger()
-            console.log("App started")
+            console.log(`\x1b[31m%s\x1b[31m`, 'App started')
         })
     } catch(err){
         console.log("DB Connection Error")
