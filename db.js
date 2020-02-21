@@ -1,7 +1,7 @@
 let mongodb = require('mongodb').MongoClient
     ,Logger = require('mongodb').Logger
     ,fs = require('fs')
-    ,timeHelper = require('./helpers/time')
+    ,timeHelper = require('./helpers/common')
     ,_db;
 
 module.exports = {

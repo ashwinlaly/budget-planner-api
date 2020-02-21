@@ -3,10 +3,10 @@ let cookieConfig = require('../config')
 module.exports = {
     sendData : (res, data) => {
         if(data.length > 0) {
-            res.cookie('test', 123, cookieConfig.CookieConfig).status(200).send({
+            res.cookie('test', 123, cookieConfig.CookieConfig).status(201).send({
                 data,
                 message : "data listed",
-                status : 200
+                status : 201
             })
         } else {
             res.status(202).send({
@@ -17,10 +17,10 @@ module.exports = {
     },
     createData : (res, data) => {
         if(data.insertedCount == 1){
-            res.status(200).send({
+            res.status(201).send({
                 data : data.ops,
                 message : "Created successfully",
-                status : 200
+                status : 201
             })
         } else {
             res.status(202).send({
@@ -31,9 +31,9 @@ module.exports = {
     },
     deleteData : (res, data) => {
         if(data.deletedCount == 1){
-            res.status(200).send({
+            res.status(201).send({
                 message : "Delete successfully",
-                status : 200
+                status : 201
             })
         } else {
             res.status(202).send({
@@ -48,20 +48,20 @@ module.exports = {
         })
     },
     sendSuccess : (res , message = 'Sucess') => {
-        res.status(200).send({
-            message, status : 200
+        res.status(201).send({
+            message, status : 201
         })
     },
     fileData : (res, data) => {
         if(data === true){
-            res.status(200).send({
+            res.status(201).send({
                 message : "File uploaded successfully",
-                status : 200
+                status : 201
             })
         } else {
             res.status(202).send({
                 message : "File upload Failed",
-                status : 400
+                status : 202
             })
         }
     },

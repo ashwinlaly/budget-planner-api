@@ -12,9 +12,3 @@ test('Simple test 3', (done) => {
         done()
     }, 5000)
 })
-
-test('Simple API test', () => {
-    fetch('https://reqres.in/api/users/2')
-        .then(res => res.json())
-        .then(data => console.log(data))
-})

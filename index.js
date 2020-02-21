@@ -5,6 +5,7 @@ let express = require('express'),
     Logger = require('./helpers/logger'),
     Helper = require('./helpers/response')
     fileRoute = require('./routes/file')()
+    color = require('./constants/color')
     budgetRoute = require('./routes/budget')();
 
 app.use(express.json())
@@ -18,9 +19,9 @@ db.connect(() => {
         app.listen(process.env.PORT, () => {
             Logger.clearRequestLogger()
             Logger.clearDBLogger()
-            console.log(`\x1b[31m%s\x1b[31m`, 'App started')
+            console.log(`\x1b[35m%s\x1b[35m`, 'App started')
         })
     } catch(err){
-        console.log("DB Connection Error")
+        console.log("\x1b[31m%s\x1b[31m", "DB Connection Error")
     }
 })

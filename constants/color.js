@@ -1,49 +1,49 @@
-Reset = "\x1b[0m"
-Bright = "\x1b[1m"
-Dim = "\x1b[2m"
-Underscore = "\x1b[4m"
-Blink = "\x1b[5m"
-Reverse = "\x1b[7m"
-Hidden = "\x1b[8m"
-FgBlack = "\x1b[30m"
-FgRed = "\x1b[31m"
-FgGreen = "\x1b[32m"
-FgYellow = "\x1b[33m"
-FgBlue = "\x1b[34m"
-FgMagenta = "\x1b[35m"
-FgCyan = "\x1b[36m"
-FgWhite = "\x1b[37m"
-BgBlack = "\x1b[40m"
-BgRed = "\x1b[41m"
-BgGreen = "\x1b[42m"
-BgYellow = "\x1b[43m"
-BgBlue = "\x1b[44m"
-BgMagenta = "\x1b[45m"
-BgCyan = "\x1b[46m"
-BgWhite = "\x1b[47m"
+RESET = "\x1b[0m"
+BRIGHT = "\x1b[1m"
+DIM = "\x1b[2m"
+UNDERSCORE = "\x1b[4m"
+BLINK = "\x1b[5m"
+REVERSE = "\x1b[7m"
+HIDDEN = "\x1b[8m"
+FGBLACK = "\x1b[30m"
+FGRED = "\x1b[31m"
+FGGREEN = "\x1b[32m"
+FGYELLOW = "\x1b[33m"
+FGBLUE = "\x1b[34m"
+FGMAGENTA = "\x1b[35m"
+FGCYAN = "\x1b[36m"
+FGWHITE = "\x1b[37m"
+BGBLACK = "\x1b[40m"
+BGRED = "\x1b[41m"
+BGGREEN = "\x1b[42m"
+BGYELLOW = "\x1b[43m"
+BGBLUE = "\x1b[44m"
+BGMAGENTA = "\x1b[45m"
+BGCYAN = "\x1b[46m"
+BGWHITE = "\x1b[47m"
 
-module.exports = {
-    Reset,
-    Bright,
-    Dim,
-    Underscore,
-    Blink,
-    Reverse,
-    Hidden,
-    FgBlack,
-    FgRed,
-    FgGreen,
-    FgYellow,
-    FgBlue,
-    FgMagenta,
-    FgCyan,
-    FgWhite,
-    BgBlack,
-    BgRed,
-    BgGreen,
-    BgYellow,
-    BgBlue,
-    BgMagenta,
-    BgCyan,
-    BgWhite,
-}
+module.exports = Object.freeze({
+        RESET,
+        BRIGHT,
+        DIM,
+        UNDERSCORE,
+        BLINK,
+        REVERSE,
+        HIDDEN,
+        FGBLACK,
+        FGRED,
+        FGGREEN,
+        FGYELLOW,
+        FGBLUE,
+        FGMAGENTA,
+        FGCYAN,
+        FGWHITE,
+        BGBLACK,
+        BGRED,
+        BGGREEN,
+        BGYELLOW,
+        BGBLUE,
+        BGMAGENTA,
+        BGCYAN,
+        BGWHITE
+});

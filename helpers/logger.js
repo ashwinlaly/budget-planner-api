@@ -1,5 +1,5 @@
 let fs = require('fs'),
-    timeHelper = require('./time')
+    timeHelper = require('./common')
 
 module.exports = {
     requestLogger : function(req, res, next) {
