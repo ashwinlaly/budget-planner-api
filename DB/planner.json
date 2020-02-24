@@ -1,0 +1,520 @@
+{
+	"_id": {
+		"$oid": "5e2964d42a5e094c7f6944f4"
+	},
+	"date": "2020-01-21",
+	"debits": [
+		{
+			"name": "petrol",
+			"price": {
+				"$numberDecimal": "100.00"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e2964d42a5e094c7f6944f5"
+	},
+	"date": "2020-01-22",
+	"debits": [
+		{
+			"name": "Hair cut",
+			"price": {
+				"$numberDecimal": "90.00"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e29c8bb685b99b60255b2d2"
+	},
+	"date": "2020-01-23",
+	"debits": [
+		{
+			"name": "donate to grandma",
+			"price": {
+				"$numberDecimal": "10.0000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e2acd04eab849bc1519997b"
+	},
+	"date": "2020-01-24",
+	"debits": [
+		{
+			"name": "petrol",
+			"price": {
+				"$numberDecimal": "100.000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e2ecebd09afce29adbd4bf6"
+	},
+	"date": "2020-01-25",
+	"debits": [
+		{
+			"name": "to native",
+			"price": {
+				"$numberDecimal": "5000.00000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e3aba6e425078c91a70dcfc"
+	},
+	"date": "2020-01-27",
+	"debits": [
+		{
+			"name": "petrol",
+			"price": {
+				"$numberDecimal": "100.000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e3aba7d425078c91a70dcfd"
+	},
+	"date": "2020-01-31",
+	"debits": [
+		{
+			"name": "petrol",
+			"price": {
+				"$numberDecimal": "100.000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e3abc1c425078c91a70dcfe"
+	},
+	"date": "2020-01-28",
+	"debits": [
+		{
+			"name": "birthday",
+			"price": {
+				"$numberDecimal": "60.0000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e3abc1c425078c91a70dcff"
+	},
+	"date": "2020-01-29",
+	"debits": [
+		{
+			"name": "birthday",
+			"price": {
+				"$numberDecimal": "120.000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e3abc1c425078c91a70dd00"
+	},
+	"date": "2020-02-01",
+	"debits": [
+		{
+			"name": "petrol",
+			"price": {
+				"$numberDecimal": "100.000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e3abc1c425078c91a70dd01"
+	},
+	"date": "2020-02-02",
+	"debits": [
+		{
+			"name": "shopping",
+			"price": {
+				"$numberDecimal": "1000.00000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e3abc1c425078c91a70dd02"
+	},
+	"date": "2020-02-03",
+	"debits": [
+		{
+			"name": "newspaper",
+			"price": {
+				"$numberDecimal": "5.00000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e3abc1c425078c91a70dd03"
+	},
+	"date": "2020-02-04",
+	"debits": [
+		{
+			"name": "petrol",
+			"price": {
+				"$numberDecimal": "100.000000000000"
+			}
+		},
+		{
+			"name": "newspaper",
+			"price": {
+				"$numberDecimal": "4.00000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e3abc1c425078c91a70dd04"
+	},
+	"date": "2020-02-05",
+	"debits": [
+		{
+			"name": "newspaper",
+			"price": {
+				"$numberDecimal": "4.00000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e3c3676f7151fb263cdff18"
+	},
+	"date": "2020-02-06",
+	"debits": [
+		{
+			"name": "bike insurance",
+			"price": {
+				"$numberDecimal": "1450.00000000000"
+			}
+		},
+		{
+			"name": "petrol",
+			"price": {
+				"$numberDecimal": "100.000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e45096ad778d67b0ac2ec84"
+	},
+	"date": "2020-02-07",
+	"debits": [
+		{
+			"name": "bus fare",
+			"price": {
+				"$numberDecimal": "17.0000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e45096ad778d67b0ac2ec85"
+	},
+	"date": "2020-02-08",
+	"debits": [
+		{
+			"name": "bus fare",
+			"price": {
+				"$numberDecimal": "40.0000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e45096ad778d67b0ac2ec86"
+	},
+	"date": "2020-02-09",
+	"debits": [
+		{
+			"name": "shopping",
+			"price": {
+				"$numberDecimal": "1000.00000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e45096ad778d67b0ac2ec87"
+	},
+	"date": "2020-02-10",
+	"debits": [
+		{
+			"name": "petrol",
+			"price": {
+				"$numberDecimal": "100.000000000000"
+			}
+		},
+		{
+			"name": "newspaper",
+			"price": {
+				"$numberDecimal": "5.00000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e45096ad778d67b0ac2ec88"
+	},
+	"date": "2020-02-11",
+	"debits": [
+		{
+			"name": "bus fare",
+			"price": {
+				"$numberDecimal": "17.0000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e45096ad778d67b0ac2ec89"
+	},
+	"date": "2020-02-12",
+	"debits": [
+		{
+			"name": "bus fare",
+			"price": {
+				"$numberDecimal": "17.0000000000000"
+			}
+		},
+		{
+			"name": "newspaper",
+			"price": {
+				"$numberDecimal": "5.00000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e45096ad778d67b0ac2ec8a"
+	},
+	"date": "2020-02-13",
+	"debits": [
+		{
+			"name": "bus fare",
+			"price": {
+				"$numberDecimal": "17.0000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e4a4a1dbc01228930da751f"
+	},
+	"date": "2020-02-14",
+	"debits": [
+		{
+			"name": "bus fare",
+			"price": {
+				"$numberDecimal": "7.00000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e4a4a1dbc01228930da7520"
+	},
+	"date": "2020-02-15",
+	"debits": [
+		{
+			"name": "bus fare",
+			"price": {
+				"$numberDecimal": "5.00000000000000"
+			}
+		},
+		{
+			"name": "petrol",
+			"price": {
+				"$numberDecimal": "50.0000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e4a4a1dbc01228930da7521"
+	},
+	"date": "2020-02-16",
+	"debits": [
+		{
+			"name": "shopping",
+			"price": {
+				"$numberDecimal": "1000.00000000000"
+			}
+		},
+		{
+			"name": "petrol",
+			"price": {
+				"$numberDecimal": "100.000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e4cf3d2c319a2122cabd89f"
+	},
+	"date": "2020-02-18",
+	"debits": [
+		{
+			"name": "donate to grandma",
+			"price": {
+				"$numberDecimal": "20.0000000000000"
+			}
+		},
+		{
+			"name": "petrol",
+			"price": {
+				"$numberDecimal": "100.000000000000"
+			}
+		},
+		{
+			"name": "newspaper",
+			"price": {
+				"$numberDecimal": "5.00000000000000"
+			}
+		},
+		{
+			"name": "bus fare",
+			"price": {
+				"$numberDecimal": "10.0000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e4cf3e5c319a2122cabd8a0"
+	},
+	"date": "2020-02-19",
+	"debits": [
+		{
+			"name": "bus fare",
+			"price": {
+				"$numberDecimal": "20.0000000000000"
+			}
+		},
+		{
+			"name": "donate to grandma",
+			"price": {
+				"$numberDecimal": "10.0000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e4e58adf38a7631a15a35f2"
+	},
+	"date": "2020-02-20",
+	"debits": [
+		{
+			"name": "bus fare",
+			"price": {
+				"$numberDecimal": "10.0000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e4fce5529f80fd8ce055f4c"
+	},
+	"date": "2020-02-21",
+	"debits": [
+		{
+			"name": "mobile recharge",
+			"price": {
+				"$numberDecimal": "505.000000000000"
+			}
+		},
+		{
+			"name": "bus fare",
+			"price": {
+				"$numberDecimal": "10.0000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e53caa6eb72e096916dcb4c"
+	},
+	"date": "2020-02-22",
+	"debits": [
+		{
+			"name": "shopping",
+			"price": {
+				"$numberDecimal": "200"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e53caf5eb72e096916dcb4d"
+	},
+	"date": "2020-02-23",
+	"debits": [
+		{
+			"name": "shopping",
+			"price": {
+				"$numberDecimal": "200"
+			}
+		},
+		{
+			"name": "petrol",
+			"price": {
+				"$numberDecimal": "100"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e53cb0eeb72e096916dcb4e"
+	},
+	"date": "2020-02-24",
+	"debits": [
+		{
+			"name": "bus fare",
+			"price": {
+				"$numberDecimal": "7"
+			}
+		}
+	]
+}

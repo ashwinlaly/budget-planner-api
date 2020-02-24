@@ -6,6 +6,10 @@ Performance Testing
     2. artillery run index.yml
 
 
+Export DB:
+  mongoexport --db=planner --collection=budget --out=/path/planner.json --pretty
+  mongoimport --db=planner2 --collection=budget --file=/path/planner.json
+
 const createPolicy = (name, amount) => {
   return {
     type : 'CREATE_POLICY',
