@@ -7,7 +7,7 @@
 		{
 			"name": "petrol",
 			"price": {
-				"$numberDecimal": "100.00"
+				"$numberDecimal": "100.0000000000000"
 			}
 		}
 	]
@@ -21,7 +21,7 @@
 		{
 			"name": "Hair cut",
 			"price": {
-				"$numberDecimal": "90.00"
+				"$numberDecimal": "90.0000000000000"
 			}
 		}
 	]
@@ -479,7 +479,7 @@
 		{
 			"name": "shopping",
 			"price": {
-				"$numberDecimal": "200"
+				"$numberDecimal": "200.0000000000000"
 			}
 		}
 	]
@@ -493,13 +493,13 @@
 		{
 			"name": "shopping",
 			"price": {
-				"$numberDecimal": "200"
+				"$numberDecimal": "200.0000000000000"
 			}
 		},
 		{
 			"name": "petrol",
 			"price": {
-				"$numberDecimal": "100"
+				"$numberDecimal": "100.0000000000000"
 			}
 		}
 	]
@@ -513,7 +513,99 @@
 		{
 			"name": "bus fare",
 			"price": {
-				"$numberDecimal": "7"
+				"$numberDecimal": "7.0000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e563536876fe036699c683e"
+	},
+	"date": "2020-02-25",
+	"debits": [
+		{
+			"name": "bus fare",
+			"price": {
+				"$numberDecimal": "7.0000000000000"
+			}
+		},
+		{
+			"name": "newspaper",
+			"price": {
+				"$numberDecimal": "4.0000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e563572876fe036699c683f"
+	},
+	"date": "2020-02-26",
+	"debits": [
+		{
+			"name": "bus fare",
+			"price": {
+				"$numberDecimal": "17.0000000000000"
+			}
+		},
+		{
+			"name": "newspaper",
+			"price": {
+				"$numberDecimal": "5.0000000000000"
+			}
+		},
+		{
+			"name": "mobile recharge",
+			"price": {
+				"$numberDecimal": "59.0000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e593e174ca88c7e2a865189"
+	},
+	"date": "2020-02-27",
+	"debits": [
+		{
+			"name": "bus fare",
+			"price": {
+				"$numberDecimal": "20.0000000000000"
+			}
+		},
+		{
+			"name": "newspaper",
+			"price": {
+				"$numberDecimal": "5.00000000000000"
+			}
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "5e593e904ca88c7e2a86518a"
+	},
+	"date": "2020-02-28",
+	"debits": [
+		{
+			"name": "snacks",
+			"price": {
+				"$numberDecimal": "40.0000000000000"
+			}
+		},
+		{
+			"name": "education",
+			"price": {
+				"$numberDecimal": "500.000000000000"
+			}
+		},
+		{
+			"name": "petrol",
+			"price": {
+				"$numberDecimal": "100.000000000000"
 			}
 		}
 	]

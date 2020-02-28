@@ -6,11 +6,13 @@ let express = require('express'),
     Helper = require('./helpers/response')
     fileRoute = require('./routes/file')()
     color = require('./constants/color')
-    budgetRoute = require('./routes/budget')();
+    budgetRoute = require('./routes/budget')(),
+    AuthRoute = require('./routes/auth')();
 
 app.use(express.json())
 app.use(Logger.requestLogger)
 app.use(budgetRoute)
+app.use(AuthRoute)
 app.use(fileRoute)
 app.use("*", Helper.inValid)
 
